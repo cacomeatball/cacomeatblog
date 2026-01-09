@@ -9,7 +9,7 @@ export default function Header() {
         </div>
         <img
             className="headerImg"
-            src="https://silentblue.remywiki.com/images/7/74/Ichigeki%21_no_Thema.png"
+            src="https://pbs.twimg.com/media/G9-IUG9XcAE7qaD?format=jpg&name=900x900"
             alt=""
         />
     </div>
