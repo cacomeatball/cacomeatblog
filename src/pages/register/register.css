@@ -1,0 +1,57 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+            rgba(255,255,255,0.5),
+            rgba(255,255,255,0.5)
+        ),
+        url("https://pbs.twimg.com/media/G-Oq0ecawAA-NGk?format=jpg&name=900x900");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-family: "Karla", "sans-serif";
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    font-family: "Karla", "sans-serif";
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
